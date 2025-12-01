@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f6f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #e6a6b8; /* pink pastel */
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* Container umum */
+.container {
+  width: 85%;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 25px;
+}
+
+/* Judul */
+h2, h3 {
+  color: #b04a64;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Tombol tambah */
+a.tambah-btn {
+  background-color: #d48ca6;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 0.2s;
+}
+a.tambah-btn:hover {
+  background-color: #c97991;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #eabfd2;
+  color: #4a2c33;
+}
+
+tr:nth-child(even) {
+  background-color: #fdf3f6;
+}
+
+tr:hover {
+  background-color: #f7e1e8;
+}
+
+/* Tombol umum */
+.btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-edit {
+  background-color: #d48ca6;
+}
+.btn-edit:hover {
+  background-color: #c97991;
+}
+
+.btn-hapus {
+  background-color: #e08b8b;
+}
+.btn-hapus:hover {
+  background-color: #cc6e6e;
+}
+
+/* ===== Form (Tambah & Edit) ===== */
+.form-container {
+  width: 400px;
+  margin: 80px auto;
+  background: #fff8fa;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.12);
+  border: 1px solid #f1d8df;
+}
+
+label {
+  font-size: 14px;
+  color: #555;
+}
+
+input[type=text],
+input[type=email] {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 15px;
+  border: 1px solid #e2b8c2;
+  border-radius: 6px;
+  background-color: #fff;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #d48ca6;
+  outline: none;
+  box-shadow: 0 0 4px rgba(212, 140, 166, 0.4);
+}
+
+button {
+  background-color: #d48ca6;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.2s;
+}
+button:hover {
+  background-color: #c97991;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #a15c74;
+  font-size: 14px;
+}
+a:hover {
+  color: #7b4057;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 15px;
+  border: 1px solid #e2b8c2;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 14px;
+  color: #555;
+  transition: 0.2s;
+  appearance: none;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="%23b04a64" d="M0 0l5 7 5-7z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px 7px;
+}
+
+select:focus {
+  border-color: #d48ca6;
+  outline: none;
+  box-shadow: 0 0 4px rgba(212, 140, 166, 0.4);
+}
